@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="0dp"
+    android:background="@drawable/linearlayout_cardview">
+
+    <ImageView
+        android:id="@+id/search_image"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/like_cardview_height"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/search_title"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="测试"
+        android:textSize="20dp"
+        android:textColor="#5a5656"/>
+
+</LinearLayout>

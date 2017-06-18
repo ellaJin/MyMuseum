@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/toolbar_theme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/product_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#fbfbfb"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:fitsSystemWindows="true"
+            android:titleTextColor="#5f5d5d"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="展品详情"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_cardview_height"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@color/bg_grey"/>
+
+        <TextView
+            android:id="@+id/product_detail_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/product_cardview_title"
+            android:textStyle="bold"
+            android:textColor="#242222"/>
+
+        <TextView
+            android:id="@+id/product_detail_maker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="14sp"
+            android:text="作者未知"/>
+        <TextView
+            android:id="@+id/product_detail_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="14sp"
+            android:text="材质未知"/>
+        <TextView
+            android:id="@+id/product_detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="14sp"
+            android:text="尺寸未知"/>
+
+        <TextView
+            android:id="@+id/product_detail_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/product_cardview_topM1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/product_cardview_describe"
+            android:text="tests"
+            android:padding="@dimen/product_carview_pad1"
+            android:layout_marginBottom="3dp"
+            android:textColor="#565454"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="exhibit_height">300dp</dimen>
+    <dimen name="exhibit_cardview_height">200dp</dimen>
+    <dimen name="product_cardview_height">350dp</dimen>
+    <dimen name="product_cardview_title">20sp</dimen>
+    <dimen name="product_cardview_describe">16sp</dimen>
+    <dimen name="product_cardview_topM1">5dp</dimen>
+    <dimen name="product_carview_pad1">8dp</dimen>
+    <dimen name="exhibit_height_main">300dp</dimen>
+    <dimen name="exhibit_carview_pad1">1dp</dimen>
+    <dimen name="exhibit_carview_M1">20dp</dimen>
+    <dimen name="exhibit_main_describeSize">14sp</dimen>
+
+    <dimen name="type_card_view">100dp</dimen>
+    <dimen name="third_big_imame">195dp</dimen>
+    <dimen name="third_view">5dp</dimen>
+    <dimen name="third_margin_bottom">10dp</dimen>
+
+    <dimen name="exhibit_list_cardview_title">16sp</dimen>
+    <dimen name="exhibit_list_cardview_shotDescribe">14sp</dimen>
+
+    <dimen name="like_cardview_height">110dp</dimen>
+</resources>
